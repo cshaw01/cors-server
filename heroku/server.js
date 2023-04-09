@@ -12,6 +12,7 @@ corsProxy.createServer({
       'https://portfolio-ravenous.web.app',
       'https://portfolio-ravenous.firebaseapp.com/',
       'https://test-my-api-endpoint.web.app',
+      'https://whatins.sg',
       'https://test-my-api-endpoint.firebaseapp.com'
     ],
     requireHeader: ['origin', 'x-requested-with'],
