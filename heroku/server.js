@@ -8,12 +8,7 @@ const port = process.env.PORT || 8080;
 corsProxy.createServer({
     originWhitelist: [
       'http://localhost:3000',
-      'http://localhost:5000',
-      'https://portfolio-ravenous.web.app',
-      'https://portfolio-ravenous.firebaseapp.com/',
-      'https://test-my-api-endpoint.web.app',
-      'https://whatins.sg',
-      'https://test-my-api-endpoint.firebaseapp.com'
+      'https://whatins.sg'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
