@@ -8,7 +8,8 @@ const port = process.env.PORT || 8080;
 corsProxy.createServer({
     originWhitelist: [
       'http://localhost:3000',
-      'https://whatins.sg'
+      'https://whatins.sg',
+      'https://www.whatins.sg'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
